@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <form  class="new-form" action="">
+        <p>For business enquiries please use the form below</p>
+        <p>Required*</p>
+        <div class="name on">
+            <label for="name">Name*</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+
+        <div class="company on">
+            <label for="company">Company*</label>
+            <input type="text" name="company" id="company" required>
+        </div>
+
+        <div class="email on">
+            <label for="email">E-mail*</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="phone on">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+
+        <div class="subject on">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject">
+        </div>
+        
+        <div class="message">
+            <label for="message">Message*</label>
+            <textarea name="message" id="message" required></textarea>
+        </div>
+        
+
+
+        
+        <div class="checkbox-wrapper">
+
+            <input class="styled-checkbox" type="checkbox" id="styled-checkbox">
+            <label for="styled-checkbox" id="styled-checkbox">I accept <a href="#">Terms and Privacy Policy</a></label>
+        </div>
+        
+        <button type="submit">Send</button>
+        
+        
+
+
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
